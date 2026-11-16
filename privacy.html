@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy · Twilight Again Uploader</title><meta name="description" content="How Twilight Again Uploader accesses, uses, stores and shares YouTube data, and how to revoke its authorization."><link rel="stylesheet" href="site.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="./">Twilight Again<span>Uploader</span></a><nav aria-label="Main"><a href="./">About</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<main id="main" class="document">
+<p class="eyebrow">Twilight Again Uploader</p><h1>Privacy policy</h1><p class="date">Effective 16 November 2026</p>
+<p>Twilight Again operates this personal desktop uploader for its own YouTube channel. This policy covers the uploader and its informational website.</p>
+<h2>Information accessed</h2>
+<p>Google OAuth handles sign-in. The uploader requests <code>youtube.upload</code> and <code>youtube.readonly</code>. It does not ask for or store a Google password.</p>
+<ul><li>Authorization credentials, including access and refresh tokens, let the desktop tool make the owner's authorized API requests.</li><li>Channel ID, title and handle identify the intended channel. The tool reads the owner's upload and video metadata, including video IDs, titles, visibility, upload and processing status, and scheduled publication times.</li><li>The owner supplies video files, titles, descriptions, tags and release schedules. Local queue records include file paths and hashes, job IDs, upload progress, video IDs, timestamps and validation reports.</li></ul>
+<h2>Purpose and sharing</h2>
+<p>The uploader uses this information to verify the channel, avoid duplicate uploads or conflicting schedules, resume interrupted uploads, submit selected videos and metadata to YouTube, and check upload results. YouTube receives the selected media, metadata and authorized requests. Google processes authorization requests. Publicly released videos and their public metadata are visible according to their YouTube settings.</p>
+<p>The uploader does not sell Google user data, use it for advertising, or use it to train generalized AI models. AI-assisted tools may help the owner research, edit and prepare content or review workflow results. OAuth credentials are kept out of published pages and content-generation prompts; workflow metadata can appear in local operational reports reviewed by the owner and their chosen tools.</p>
+<p>Twilight Again Uploader's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Storage and retention</h2>
+<p>The current Windows installation stores credentials and the publishing queue on the owner's computer. OAuth tokens and saved resumable-upload session URLs are protected with Windows user-bound DPAPI. Other metadata, reports and media are ordinary local files; they are not all encrypted by the uploader.</p>
+<p>Local records remain until the owner removes them. Uploaded videos and their associated data are also retained by Google and YouTube under their policies and the owner's settings. The tool does not provide a hosted account database or a public account-registration service.</p>
+<h2>Control, revocation and deletion</h2>
+<p>The owner can revoke the uploader's authorization through <a href="https://security.google.com/settings/security/permissions">Google Account permissions</a>. This stops future authorized access once the revocation takes effect. The owner can separately delete local credential files, queue records, reports and media from their computer.</p>
+<p>Revoking access or deleting local records does not automatically remove uploaded or scheduled videos. Manage or delete those separately in <a href="https://studio.youtube.com/">YouTube Studio</a>.</p>
+<h2>This website</h2>
+<p>These static pages contain no sign-in form, uploader, advertising or analytics scripts added by Twilight Again. They do not receive the desktop uploader's tokens or media. GitHub Pages hosts the website and may process ordinary request information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. External links lead to services with their own policies.</p>
+<h2>Contact and changes</h2>
+<p>For a question about this app or its data practices, use the support email displayed on its Google consent screen or <a href="https://github.com/RedaFezazi/twilight-again-uploader/issues">open a repository issue</a>. Issues are public: do not include tokens, private videos or other sensitive information.</p>
+<p>Changes to the tool's data practices will be reflected on this page with an updated effective date. Google and YouTube also handle data under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+</main>
+<footer><p>Twilight Again Uploader</p><p><a href="./">About</a> · <a href="terms.html">Terms</a> · <a href="https://github.com/RedaFezazi/twilight-again-uploader/issues">Contact</a></p></footer>
+</body></html>
